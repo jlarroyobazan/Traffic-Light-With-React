@@ -1,0 +1,29 @@
+#trafficSupport {
+  background-color: black;
+  width: 15px;
+  height: 100px;
+  margin-left: 83px;
+}
+
+#container {
+  background-color: black;
+  width: 65px;
+  height: 195px;
+  margin-left: 50px;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+.light{
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  margin-top: 6px;
+  border-radius: 50%;
+  padding: 4px;
+  cursor: pointer;
+  &.red { background-color: red;}
+  &.orange {background-color: orange; }
+  &.green { background-color: green; }
+  &.selectedLight{box-shadow: #f8ffcc 0px 0px 50px 20px;}
+}
